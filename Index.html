@@ -1,0 +1,23 @@
+<html> 
+<body> 
+<h2>Predict profit on the basis of RND and MKT</h2> 
+
+<div> 
+<form action="/predict" method="POST"> 
+<label for="RND">Amount Spent in Research & Development </label> 
+<input type="text" id="RND" name="RND">btw:[0-300000] 
+<br>
+<br> 
+<label for="MKT">Amount Spent in Marketing </label> 
+<input type="text" id="MKT" name="MKT">btw:[0-200000] 
+<br> 
+<br> 
+<input type="submit" value="Submit"> 
+<br>
+<br>
+{{ pred }}
+
+</form> 
+</div> 
+</body> 
+</html> 
